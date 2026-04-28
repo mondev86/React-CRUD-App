@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f172a;
+  color: #e6edf7;
+}
+
+.app {
+  min-height: 100vh;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem;
+}
+
+.app-header p {
+  margin: 0;
+  color: #a7b3c7;
+}
+
+.item-form {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1.4rem;
+}
+
+.item-form input,
+.item-form textarea {
+  width: 100%;
+  padding: 0.75rem 0.8rem;
+  border-radius: 0.6rem;
+  border: 1px solid #334155;
+  background: #111a31;
+  color: #e6edf7;
+}
+
+.item-form textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list-section {
+  background: #111a31;
+  border: 1px solid #263247;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.item-list li {
+  border: 1px solid #32435f;
+  background: #101a31;
+  border-radius: 0.6rem;
+  padding: 0.8rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.item-list h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.item-list p {
+  margin: 0;
+  color: #a7b3c7;
+}
+
+.item-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.empty {
+  margin: 0;
+  color: #a7b3c7;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #4b63a4;
+  border-radius: 0.6rem;
+  background: #2a3f75;
+  color: #ffffff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button.secondary {
+  border-color: #475569;
+  background: #334155;
+}
+
+button.danger {
+  border-color: #7f1d1d;
+  background: #991b1b;
+}
