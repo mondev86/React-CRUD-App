@@ -125,3 +125,19 @@ button.danger {
   border-color: #7f1d1d;
   background: #991b1b;
 }
+
+.summary {
+  margin: 0 0 0.8rem;
+  color: #a7b3c7;
+  font-size: 0.95rem;
+} 
+
+.search-input {
+  width: 100%;
+  margin: 0 0 0.9rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.6rem;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e6edf7;
+}
